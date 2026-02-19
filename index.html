@@ -1,295 +1,647 @@
-سياسة الخصوصية لتطبيق ClipShot Record
-تاريخ السريان: 19 فبراير 2026
-آخر تحديث: 19 فبراير 2026
-
-توضح سياسة الخصوصية هذه كيفية تعامل تطبيق ClipShot Record ("ClipShot" أو "نحن") مع البيانات عند استخدامك للتطبيق. التطبيق مصمم ليعمل أساسًا دون اتصال بالإنترنت، وتبقى تسجيلاتك على جهازك ما لم تقم أنت بتصديرها صراحةً.
-
-1) المعلومات التي نعالجها
-ما لا نجمعه
-
-لا نطلب إنشاء حساب.
-
-لا نطلب اسمك أو بريدك الإلكتروني أو رقم هاتفك.
-
-لا يتضمن التطبيق أي SDK إعلانات أو تحليلات أو تقارير أعطال من طرف ثالث.
-
-لا نرفع تسجيلاتك (فيديو/صوت) إلى خوادمنا.
-
-بيانات تُخزَّن محليًا على جهازك (داخل التطبيق)
-
-التسجيلات (مرئية/مخفية).
-
-بيانات وصف للتسجيلات المخفية (مثل الوقت، المدة، الحجم، النوع، وحالة التصدير).
-
-إعدادات التطبيق (الكاميرا، وضع التسجيل، الجودة، المدة القصوى، وضع التخزين، اللغة، إلخ).
-
-بيانات قفل التطبيق (مخزنة كقيمة مُجزّأة ومملحة، وليست كنص صريح).
-
-حالة الاشتراك المخزنة محليًا (مثل مُعرّفات المنتج/الخطة، purchase token، entitlement token، حالة الاشتراك، وأوقات آخر تحقق).
-
-بيانات تُرسل فقط عند التحقق من الاشتراك أو استعادته (عند الاتصال بالإنترنت)
-
-عند التحقق من اشتراك Pro أو استعادته، يرسل التطبيق إلى خادمنا بيانات شراء/أمان محدودة مثل:
-
-مُعرّفات التطبيق/الحزمة (package name) ومُعرّف المنتج (product ID)
-
-purchase token
-
-integrity token (Play Integrity)
-
-nonce لمكافحة إعادة الإرسال (anti-replay) وربط الطلب بالتطبيق/المنتج
-
-معلومات تقنية مثل المنصة وإصدار التطبيق/نوع البناء (build flavor)
-
-لا نرسل تسجيلاتك إلى خوادمنا أثناء هذا التحقق.
-
-بيانات تقنية على الخادم
-
-قد تحتوي سجلات خادمنا على بيانات تقنية لأغراض الأمان ومنع إساءة الاستخدام وتشخيص المشاكل التشغيلية، مثل:
-
-عنوان IP وبيانات طلب أساسية (مثل وقت الطلب ونوع العملية واستجابة الخادم)
-
-نواتج التحقق الخاصة بطلبات التحقق (مثل نتيجة فحص النزاهة بشكل تقني/ملخص)
-
-بيانات nonce المؤقتة لمكافحة إعادة الإرسال (تُستخدم لمنع التلاعب وإعادة استخدام نفس الطلب)
-
-2) الأذونات
-
-يطلب التطبيق الأذونات التالية لتشغيل الميزات الأساسية:
-
-الكاميرا: لتسجيل الفيديو.
-
-الميكروفون: لتسجيل الصوت.
-
-خدمة أمامية (كاميرا/ميكروفون): لاستمرار التسجيل أثناء عمل التطبيق بالخلفية.
-
-الإشعارات: لعرض حالة التسجيل وأزرار التحكم.
-
-الاهتزاز: للتغذية الراجعة اللمسية.
-
-الإنترنت: للتحقق من اشتراك Pro عبر Google Play و Play Integrity عند الحاجة.
-
-يمكنك إدارة الأذونات من إعدادات جهازك. رفض الأذونات قد يحد من بعض الميزات.
-
-3) كيف نستخدم البيانات
-
-نستخدم البيانات فقط من أجل:
-
-تسجيل المقاطع وحفظها على جهازك.
-
-إدارة التسجيلات المرئية والمخفية.
-
-تفعيل قفل التطبيق وفتح القفل بالبصمة (تتم على جهازك).
-
-تذكر إعداداتك.
-
-التحقق من حالة الاشتراك عبر Google Play.
-
-حماية الخدمة من إساءة الاستخدام (مثل rate limiting ومكافحة إعادة الإرسال والتحقق من النزاهة).
-
-4) المشاركة والإفصاح
-
-لا نبيع بياناتك ولا نؤجرها ولا نشاركها لأغراض إعلانية.
-
-عند التحقق من الاشتراك، تتم مشاركة بيانات شراء/أمان محدودة مع خدمات Google التالية فقط:
-
-Google Play Developer API: للتحقق من حالة الاشتراك.
-
-Google Play Integrity API: للتحقق من سلامة الطلب/التطبيق/الجهاز.
-
-لا نستلم ولا نخزن بيانات بطاقتك البنكية؛ الدفع تتم معالجته عبر Google Play.
-
-قد تتم معالجة السجلات التقنية من قِبل مزود الاستضافة/البنية التحتية (مثل مزود الخدمة السحابية) كجزء من تشغيل الخدمة وتأمينها.
-
-5) التخزين والأمان
-
-التسجيلات المخفية تُشفَّر داخل مساحة التطبيق الخاصة باستخدام تشفير مدعوم بـ Android Keystore.
-
-التسجيلات المرئية تُحفَظ في معرض الجهاز داخل مجلد ClipShotRecord (عادة تحت Movies أو Music).
-
-قد تُنشأ ملفات مؤقتة أثناء التسجيل/الإخفاء/التشغيل/التصدير، ويتم تنظيفها تلقائيًا عند عدم الحاجة.
-
-في حالات نادرة، قد تكتمل عملية التشفير بعد التسجيل بوقت قصير بينما تبقى البيانات ضمن مساحة التطبيق الخاصة.
-
-المصادقة البيومترية تتم على جهازك بواسطة Android؛ لا نصل إلى بياناتك البيومترية ولا نخزنها.
-
-6) النسخ الاحتياطي
-
-اعتمادًا على إعدادات جهازك/حسابك السحابي، قد يقوم Android أو مزود النسخ الاحتياطي بنسخ بعض بيانات التطبيق الخاصة (بما في ذلك التفضيلات وربما البيانات داخل مساحة التطبيق الخاصة).
-نحن لا نتحكم بهذه النسخ أو بسياسات الاحتفاظ لدى مزود النسخ الاحتياطي. يمكنك إدارة النسخ الاحتياطي من إعدادات جهازك.
-
-7) الاحتفاظ بالبيانات والحذف
-
-يمكنك حذف تسجيلاتك من داخل التطبيق أو من المعرض.
-
-حذف التطبيق يزيل البيانات داخل مساحة التطبيق الخاصة.
-
-التسجيلات التي قمت بتصديرها إلى المعرض تبقى حتى تحذفها يدويًا.
-
-لا نحتفظ بقاعدة بيانات حسابات مستخدمين لأغراض الاشتراك.
-
-السجلات التقنية على الخادم: نحتفظ بها لمدة محدودة لأغراض التشغيل والأمان. عادةً لا تتجاوز 30 يومًا، وقد نحتفظ بها لفترة أطول بشكل استثنائي إذا لزم ذلك للتحقيق في إساءة استخدام/حادثة أمنية أو للامتثال لالتزام قانوني، ثم تُحذف أو تُقلَّص عندما لا تعود هناك حاجة لها.
-
-بيانات nonce المضادة لإعادة الإرسال تُخزن مؤقتًا فقط وتُحذف تلقائيًا بعد انتهاء نافذة الحماية.
-
-8) خصوصية الأطفال
-
-التطبيق غير موجّه للأطفال دون 13 عامًا.
-
-لا نجمع عن قصد معلومات شخصية مباشرة من الأطفال.
-
-9) تغييرات هذه السياسة
-
-قد نقوم بتحديث هذه السياسة من وقت لآخر. سنحدّث تاريخ السريان وننشر النسخة المحدثة داخل التطبيق أو عبر رابط السياسة.
-
-10) تواصل معنا
-
-لأي استفسار حول الخصوصية: alwassof25@gmail.com
-
-Privacy Policy for ClipShot Record
-
-Effective Date: February 19, 2026
-Last Updated: February 19, 2026
-
-This Privacy Policy explains how ClipShot Record ("ClipShot," "we," "us," or "our") handles data when you use the app. The app is designed to work primarily offline, and your recordings remain on your device unless you explicitly export them.
-
-1) Information We Process
-What we do NOT collect
-
-No account registration is required.
-
-We do not ask for your name, email, or phone number.
-
-The app does not include third-party advertising, analytics, or crash-reporting SDKs.
-
-We do not upload your recordings (video/audio) to our servers.
-
-Data stored locally on your device
-
-Recordings (visible/hidden).
-
-Hidden recording metadata (e.g., timestamp, duration, size, type, export state).
-
-App preferences (camera, mode, quality, max duration, storage mode, language, etc.).
-
-App lock credential (stored as a salted/hashed value, not plain text).
-
-Local subscription state (e.g., product/plan identifiers, purchase token, entitlement token, subscription status, and verification timestamps).
-
-Data sent only for subscription verification / restore (when online)
-
-When verifying or restoring Pro, the app sends limited purchase/security data to our backend, such as:
-
-App/package identifiers and product identifier(s)
-
-purchase token
-
-Play Integrity integrity token
-
-an anti-replay nonce (to prevent request reuse/tampering and bind the request to the app/product)
-
-technical info like platform, app version, and build flavor
-
-Your recordings are not sent to our servers during this process.
-
-Server-side technical data
-
-Our backend may process technical logs for security, abuse prevention, operational reliability, and troubleshooting, which may include:
-
-IP address and basic request metadata (e.g., time, operation type, response status)
-
-a technical/summary result of integrity verification for verification requests
-
-temporary anti-replay nonce data used to prevent replay attacks
-
-2) Permissions
-
-The app requests only permissions needed for core functionality:
-
-Camera: record video.
-
-Microphone: record audio.
-
-Foreground service (camera/microphone): keep recording service active in the background.
-
-Notifications: show recording status and controls.
-
-Vibration: haptic feedback.
-
-Internet: verify Pro subscriptions via Google Play and Play Integrity when needed.
-
-You can manage permissions in device settings. Denying permissions may limit features.
-
-3) How We Use Data
-
-We use data only to:
-
-Record and save clips on your device.
-
-Manage visible and hidden recordings.
-
-Provide app lock and biometric unlock (on-device).
-
-Remember your settings.
-
-Verify Pro entitlement via Google Play.
-
-Protect service integrity (e.g., rate limiting, anti-replay, integrity checks).
-
-4) Sharing and Disclosure
-
-We do not sell, rent, or share your data for advertising.
-
-For subscription verification, limited purchase/security data is shared only with:
-
-Google Play Developer API (subscription status verification)
-
-Google Play Integrity API (request/app/device integrity checks)
-
-We do not receive or store your payment card details; payments are handled by Google Play.
-
-Technical logs may be processed by our hosting/infrastructure provider as part of operating and securing the service.
-
-5) Storage and Security
-
-Hidden recordings are encrypted in app-private storage using Android Keystore-backed encryption.
-
-Visible recordings are saved in your device gallery under ClipShotRecord (typically Movies or Music).
-
-Temporary files may be created during recording/hiding/playback/export and are cleaned when no longer needed.
-
-In rare cases, encryption may complete shortly after recording while the data remains within app-private storage.
-
-Biometric authentication is handled on-device by Android; we do not access or store biometric templates.
-
-6) Backups
-
-Depending on your device and cloud backup settings, Android (or your backup provider) may back up certain app data, potentially including app-private data. We do not control these backups or your backup provider’s retention policies. You can manage backups in your device settings.
-
-7) Data Retention and Deletion
-
-You can delete recordings from inside the app or from your gallery.
-
-Uninstalling the app removes app-private data.
-
-Gallery-exported files remain until you delete them manually.
-
-We do not maintain a user-account database for subscription verification.
-
-Server technical logs: We retain them for a limited period for operational and security purposes. In the ordinary course of operations, this is typically up to 30 days. In exceptional cases, we may retain logs longer if needed to investigate abuse/security incidents or to comply with legal obligations, and we delete or minimize them when no longer required.
-
-Anti-replay nonce entries are temporary and auto-expire after the protection window.
-
-8) Children’s Privacy
-
-The app is not directed to children under 13.
-
-We do not knowingly collect direct personal information from children.
-
-9) Changes to This Policy
-
-We may update this policy from time to time. We will update the effective date and publish the revised policy in the app or at the policy URL.
-
-10) Contact
-
-Privacy questions: alwassof25@gmail.com
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ClipShot Record — Privacy Policy</title>
+  <meta name="description" content="ClipShot Record Privacy Policy (Arabic & English)" />
+
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --card: rgba(255,255,255,.04);
+      --cardSolid:#111827;
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+      --line:#1f2937;
+      --accent:#60a5fa;
+      --accent2:#34d399;
+      --warn:#fbbf24;
+      --shadow: 0 14px 40px rgba(0,0,0,.35);
+      --radius:16px;
+      --max: 980px;
+
+      --sans-en: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      --sans-ar: system-ui, -apple-system, "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", "Noto Kufi Arabic";
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root{
+        --bg:#f6f7fb;
+        --card: rgba(255,255,255,.92);
+        --cardSolid:#ffffff;
+        --text:#0f172a;
+        --muted:#475569;
+        --line:#e2e8f0;
+        --accent:#2563eb;
+        --accent2:#059669;
+        --warn:#b45309;
+        --shadow: 0 12px 30px rgba(2,6,23,.08);
+      }
+    }
+
+    *{ box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body{
+      margin:0;
+      font-family: var(--sans-en);
+      background:
+        radial-gradient(1000px 650px at 10% -10%, rgba(96,165,250,.22), transparent 60%),
+        radial-gradient(950px 520px at 100% 0%, rgba(52,211,153,.16), transparent 55%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    a{ color: var(--accent); text-decoration:none; }
+    a:hover{ text-decoration:underline; }
+
+    .wrap{
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 26px 16px 64px;
+    }
+
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      padding: 16px 16px;
+      background: rgba(255,255,255,.03);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .brand{
+      display:flex;
+      flex-direction:column;
+      gap:3px;
+      min-width: 0;
+    }
+    .brand h1{
+      font-size: 18px;
+      margin:0;
+      font-weight: 800;
+      letter-spacing: .2px;
+      white-space: nowrap;
+      overflow:hidden;
+      text-overflow: ellipsis;
+    }
+    .brand p{
+      margin:0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .lang{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+      align-items:center;
+    }
+    .btn{
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      padding: 9px 12px;
+      border-radius: 999px;
+      cursor:pointer;
+      font-size: 13px;
+      transition: .15s ease;
+      user-select:none;
+    }
+    .btn:hover{ transform: translateY(-1px); }
+    .btn.active{
+      border-color: rgba(96,165,250,.7);
+      background: rgba(96,165,250,.18);
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .card{
+      background: rgba(255,255,255,.03);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 18px 16px;
+    }
+
+    .meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 14px;
+      color: var(--muted);
+      font-size: 13px;
+      align-items:center;
+      justify-content:space-between;
+    }
+
+    .meta-left{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 12px;
+      align-items:center;
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      padding: 7px 10px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .dot{
+      width:8px; height:8px; border-radius:50%;
+      background: var(--accent2);
+      box-shadow: 0 0 0 4px rgba(52,211,153,.15);
+    }
+    .mono{ font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+
+    .toc{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--line);
+    }
+    .toc a{
+      font-size: 13px;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.02);
+      padding: 7px 10px;
+      border-radius: 999px;
+      transition: .12s ease;
+    }
+    .toc a:hover{
+      color: var(--text);
+      text-decoration:none;
+      transform: translateY(-1px);
+    }
+
+    h2{
+      margin: 0 0 10px;
+      font-size: 20px;
+      letter-spacing:.2px;
+      font-weight: 850;
+    }
+    h3{
+      margin: 20px 0 10px;
+      font-size: 16px;
+      font-weight: 800;
+    }
+    h4{
+      margin: 14px 0 8px;
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--text);
+    }
+    p{ margin: 10px 0; }
+    ul{ margin: 8px 0 12px 18px; }
+    li{ margin: 7px 0; }
+
+    .muted{ color: var(--muted); }
+    .callout{
+      margin: 12px 0;
+      border: 1px solid rgba(96,165,250,.35);
+      background: rgba(96,165,250,.10);
+      border-radius: 14px;
+      padding: 12px 12px;
+    }
+    .callout b{ color: var(--text); }
+    .callout .hint{ color: var(--muted); font-size: 13px; }
+
+    .divider{
+      height:1px;
+      background: var(--line);
+      margin: 14px 0 8px;
+      opacity: .9;
+    }
+
+    .footer{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content:space-between;
+      align-items:center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* Language sections */
+    .lang-section{ display:none; }
+    .lang-section.active{ display:block; }
+
+    /* RTL tweaks */
+    html[dir="rtl"] body { font-family: var(--sans-ar); }
+    html[dir="rtl"] ul { margin-left: 0; margin-right: 18px; }
+    html[dir="rtl"] .toc { justify-content:flex-start; }
+    html[dir="rtl"] .meta { justify-content:flex-start; }
+    html[dir="rtl"] .meta-left { justify-content:flex-start; }
+    html[dir="rtl"] .footer { justify-content:space-between; }
+
+    /* Print */
+    @media print{
+      body{ background:#fff; color:#000; }
+      .topbar, .toc, .lang, .footer .muted { display:none !important; }
+      .card{ box-shadow:none; border:1px solid #ddd; background:#fff; }
+      a{ color:#000; text-decoration:none; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="topbar">
+      <div class="brand">
+        <h1>ClipShot Record — Privacy Policy</h1>
+        <p class="muted">Bilingual • Mobile-friendly • GitHub Pages</p>
+      </div>
+
+      <div class="lang" role="tablist" aria-label="Language switch">
+        <button class="btn" id="btn-ar" type="button" aria-controls="section-ar">العربية</button>
+        <button class="btn" id="btn-en" type="button" aria-controls="section-en">English</button>
+      </div>
+    </div>
+
+    <div class="grid">
+      <!-- Header / TOC -->
+      <div class="card">
+        <div class="meta">
+          <div class="meta-left">
+            <span class="pill"><span class="dot"></span><span id="effective-pill">Effective Date: Feb 19, 2026</span></span>
+            <span class="pill"><span class="mono" id="hint-pill">Tip: add <b>?lang=ar</b> or <b>?lang=en</b></span></span>
+          </div>
+          <div class="mono" id="updated-pill">Last Updated: Feb 19, 2026</div>
+        </div>
+
+        <div class="toc" id="toc">
+          <a data-ar="#ar-s1"  data-en="#en-s1"  href="#en-s1">1) Information</a>
+          <a data-ar="#ar-s2"  data-en="#en-s2"  href="#en-s2">2) Permissions</a>
+          <a data-ar="#ar-s3"  data-en="#en-s3"  href="#en-s3">3) Use</a>
+          <a data-ar="#ar-s4"  data-en="#en-s4"  href="#en-s4">4) Sharing</a>
+          <a data-ar="#ar-s5"  data-en="#en-s5"  href="#en-s5">5) Security</a>
+          <a data-ar="#ar-s6"  data-en="#en-s6"  href="#en-s6">6) Backups</a>
+          <a data-ar="#ar-s7"  data-en="#en-s7"  href="#en-s7">7) Retention</a>
+          <a data-ar="#ar-s8"  data-en="#en-s8"  href="#en-s8">8) Children</a>
+          <a data-ar="#ar-s9"  data-en="#en-s9"  href="#en-s9">9) Changes</a>
+          <a data-ar="#ar-s10" data-en="#en-s10" href="#en-s10">10) Contact</a>
+        </div>
+      </div>
+
+      <!-- AR -->
+      <section id="section-ar" class="card lang-section" lang="ar" dir="rtl">
+        <h2>سياسة الخصوصية لتطبيق ClipShot Record</h2>
+        <p class="muted"><b>تاريخ السريان:</b> 19 فبراير 2026 &nbsp;—&nbsp; <b>آخر تحديث:</b> 19 فبراير 2026</p>
+
+        <div class="callout">
+          <b>ملخص سريع:</b>
+          <div class="hint">التطبيق مصمم ليعمل أساسًا دون اتصال بالإنترنت، وتبقى تسجيلاتك على جهازك ما لم تقم أنت بتصديرها صراحةً.</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <h3 id="ar-s1">1) المعلومات التي نعالجها</h3>
+
+        <h4>ما لا نجمعه</h4>
+        <ul>
+          <li>لا نطلب إنشاء حساب.</li>
+          <li>لا نطلب اسمك أو بريدك الإلكتروني أو رقم هاتفك.</li>
+          <li>لا يتضمن التطبيق أي SDK إعلانات أو تحليلات أو تقارير أعطال من طرف ثالث.</li>
+          <li>لا نرفع تسجيلاتك (فيديو/صوت) إلى خوادمنا.</li>
+        </ul>
+
+        <h4>بيانات تُخزَّن محليًا على جهازك (داخل التطبيق)</h4>
+        <ul>
+          <li>التسجيلات (مرئية/مخفية).</li>
+          <li>بيانات وصف للتسجيلات المخفية (مثل الوقت، المدة، الحجم، النوع، وحالة التصدير).</li>
+          <li>إعدادات التطبيق (الكاميرا، وضع التسجيل، الجودة، المدة القصوى، وضع التخزين، اللغة، إلخ).</li>
+          <li>بيانات قفل التطبيق (مخزنة كقيمة مُجزّأة ومملحة، وليست كنص صريح).</li>
+          <li>حالة الاشتراك المخزنة محليًا (مثل مُعرّفات المنتج/الخطة، <span class="mono">purchase token</span>، <span class="mono">entitlement token</span>، حالة الاشتراك، وأوقات آخر تحقق).</li>
+        </ul>
+
+        <h4>بيانات تُرسل فقط عند التحقق من الاشتراك أو استعادته (عند الاتصال بالإنترنت)</h4>
+        <p>عند التحقق من اشتراك Pro أو استعادته، يرسل التطبيق إلى خادمنا بيانات شراء/أمان محدودة مثل:</p>
+        <ul>
+          <li>مُعرّفات التطبيق/الحزمة (<span class="mono">package name</span>) ومُعرّف المنتج (<span class="mono">product ID</span>).</li>
+          <li><span class="mono">purchase token</span>.</li>
+          <li><span class="mono">integrity token</span> (Play Integrity).</li>
+          <li><span class="mono">nonce</span> لمكافحة إعادة الإرسال (anti-replay) وربط الطلب بالتطبيق/المنتج.</li>
+          <li>معلومات تقنية مثل المنصة وإصدار التطبيق/نوع البناء (build flavor).</li>
+        </ul>
+
+        <div class="callout">
+          <b>ملاحظة:</b>
+          <div class="hint">لا نرسل تسجيلاتك إلى خوادمنا أثناء هذا التحقق.</div>
+        </div>
+
+        <h4>بيانات تقنية على الخادم</h4>
+        <p>قد تحتوي سجلات خادمنا على بيانات تقنية لأغراض الأمان ومنع إساءة الاستخدام وتشخيص المشاكل التشغيلية، مثل:</p>
+        <ul>
+          <li>عنوان IP وبيانات طلب أساسية (مثل وقت الطلب ونوع العملية واستجابة الخادم).</li>
+          <li>نواتج التحقق الخاصة بطلبات التحقق (مثل نتيجة فحص النزاهة بشكل تقني/ملخص).</li>
+          <li>بيانات <span class="mono">nonce</span> المؤقتة لمكافحة إعادة الإرسال (تُستخدم لمنع التلاعب وإعادة استخدام نفس الطلب).</li>
+        </ul>
+
+        <h3 id="ar-s2">2) الأذونات</h3>
+        <p>يطلب التطبيق الأذونات التالية لتشغيل الميزات الأساسية:</p>
+        <ul>
+          <li>الكاميرا: لتسجيل الفيديو.</li>
+          <li>الميكروفون: لتسجيل الصوت.</li>
+          <li>خدمة أمامية (كاميرا/ميكروفون): لاستمرار التسجيل أثناء عمل التطبيق بالخلفية.</li>
+          <li>الإشعارات: لعرض حالة التسجيل وأزرار التحكم.</li>
+          <li>الاهتزاز: للتغذية الراجعة اللمسية.</li>
+          <li>الإنترنت: للتحقق من اشتراك Pro عبر Google Play و Play Integrity عند الحاجة.</li>
+        </ul>
+        <p class="muted">يمكنك إدارة الأذونات من إعدادات جهازك. رفض الأذونات قد يحد من بعض الميزات.</p>
+
+        <h3 id="ar-s3">3) كيف نستخدم البيانات</h3>
+        <p>نستخدم البيانات فقط من أجل:</p>
+        <ul>
+          <li>تسجيل المقاطع وحفظها على جهازك.</li>
+          <li>إدارة التسجيلات المرئية والمخفية.</li>
+          <li>تفعيل قفل التطبيق وفتح القفل بالبصمة (تتم على جهازك).</li>
+          <li>تذكر إعداداتك.</li>
+          <li>التحقق من حالة الاشتراك عبر Google Play.</li>
+          <li>حماية الخدمة من إساءة الاستخدام (مثل rate limiting ومكافحة إعادة الإرسال والتحقق من النزاهة).</li>
+        </ul>
+
+        <h3 id="ar-s4">4) المشاركة والإفصاح</h3>
+        <ul>
+          <li>لا نبيع بياناتك ولا نؤجرها ولا نشاركها لأغراض إعلانية.</li>
+          <li>عند التحقق من الاشتراك، تتم مشاركة بيانات شراء/أمان محدودة مع خدمات Google التالية فقط:
+            <ul>
+              <li>Google Play Developer API: للتحقق من حالة الاشتراك.</li>
+              <li>Google Play Integrity API: للتحقق من سلامة الطلب/التطبيق/الجهاز.</li>
+            </ul>
+          </li>
+          <li>لا نستلم ولا نخزن بيانات بطاقتك البنكية؛ الدفع تتم معالجته عبر Google Play.</li>
+          <li>قد تتم معالجة السجلات التقنية من قِبل مزود الاستضافة/البنية التحتية (مثل مزود الخدمة السحابية) كجزء من تشغيل الخدمة وتأمينها.</li>
+        </ul>
+
+        <h3 id="ar-s5">5) التخزين والأمان</h3>
+        <ul>
+          <li>التسجيلات المخفية تُشفَّر داخل مساحة التطبيق الخاصة باستخدام تشفير مدعوم بـ Android Keystore.</li>
+          <li>التسجيلات المرئية تُحفَظ في معرض الجهاز داخل مجلد <span class="mono">ClipShotRecord</span> (عادة تحت Movies أو Music).</li>
+          <li>قد تُنشأ ملفات مؤقتة أثناء التسجيل/الإخفاء/التشغيل/التصدير، ويتم تنظيفها تلقائيًا عند عدم الحاجة.</li>
+          <li>في حالات نادرة، قد تكتمل عملية التشفير بعد التسجيل بوقت قصير بينما تبقى البيانات ضمن مساحة التطبيق الخاصة.</li>
+          <li>المصادقة البيومترية تتم على جهازك بواسطة Android؛ لا نصل إلى بياناتك البيومترية ولا نخزنها.</li>
+        </ul>
+
+        <h3 id="ar-s6">6) النسخ الاحتياطي</h3>
+        <p>
+          اعتمادًا على إعدادات جهازك/حسابك السحابي، قد يقوم Android أو مزود النسخ الاحتياطي بنسخ بعض بيانات التطبيق الخاصة
+          (بما في ذلك التفضيلات وربما البيانات داخل مساحة التطبيق الخاصة).
+        </p>
+        <p class="muted">
+          نحن لا نتحكم بهذه النسخ أو بسياسات الاحتفاظ لدى مزود النسخ الاحتياطي. يمكنك إدارة النسخ الاحتياطي من إعدادات جهازك.
+        </p>
+
+        <h3 id="ar-s7">7) الاحتفاظ بالبيانات والحذف</h3>
+        <ul>
+          <li>يمكنك حذف تسجيلاتك من داخل التطبيق أو من المعرض.</li>
+          <li>حذف التطبيق يزيل البيانات داخل مساحة التطبيق الخاصة.</li>
+          <li>التسجيلات التي قمت بتصديرها إلى المعرض تبقى حتى تحذفها يدويًا.</li>
+          <li>لا نحتفظ بقاعدة بيانات حسابات مستخدمين لأغراض الاشتراك.</li>
+          <li>
+            السجلات التقنية على الخادم: نحتفظ بها لمدة محدودة لأغراض التشغيل والأمان. عادةً لا تتجاوز 30 يومًا،
+            وقد نحتفظ بها لفترة أطول بشكل استثنائي إذا لزم ذلك للتحقيق في إساءة استخدام/حادثة أمنية أو للامتثال لالتزام قانوني،
+            ثم تُحذف أو تُقلَّص عندما لا تعود هناك حاجة لها.
+          </li>
+          <li>بيانات <span class="mono">nonce</span> المضادة لإعادة الإرسال تُخزن مؤقتًا فقط وتُحذف تلقائيًا بعد انتهاء نافذة الحماية.</li>
+        </ul>
+
+        <h3 id="ar-s8">8) خصوصية الأطفال</h3>
+        <ul>
+          <li>التطبيق غير موجّه للأطفال دون 13 عامًا.</li>
+          <li>لا نجمع عن قصد معلومات شخصية مباشرة من الأطفال.</li>
+        </ul>
+
+        <h3 id="ar-s9">9) تغييرات هذه السياسة</h3>
+        <p>قد نقوم بتحديث هذه السياسة من وقت لآخر. سنحدّث تاريخ السريان وننشر النسخة المحدثة داخل التطبيق أو عبر رابط السياسة.</p>
+
+        <h3 id="ar-s10">10) تواصل معنا</h3>
+        <p>لأي استفسار حول الخصوصية: <a href="mailto:alwassof25@gmail.com">alwassof25@gmail.com</a></p>
+      </section>
+
+      <!-- EN -->
+      <section id="section-en" class="card lang-section" lang="en" dir="ltr">
+        <h2>Privacy Policy for ClipShot Record</h2>
+        <p class="muted"><b>Effective Date:</b> February 19, 2026 &nbsp;—&nbsp; <b>Last Updated:</b> February 19, 2026</p>
+
+        <div class="callout">
+          <b>Quick summary:</b>
+          <div class="hint">The app is designed to work primarily offline, and your recordings remain on your device unless you explicitly export them.</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <h3 id="en-s1">1) Information We Process</h3>
+
+        <h4>What we do NOT collect</h4>
+        <ul>
+          <li>No account registration is required.</li>
+          <li>We do not ask for your name, email, or phone number.</li>
+          <li>The app does not include third-party advertising, analytics, or crash-reporting SDKs.</li>
+          <li>We do not upload your recordings (video/audio) to our servers.</li>
+        </ul>
+
+        <h4>Data stored locally on your device</h4>
+        <ul>
+          <li>Recordings (visible/hidden).</li>
+          <li>Hidden recording metadata (e.g., timestamp, duration, size, type, export state).</li>
+          <li>App preferences (camera, mode, quality, max duration, storage mode, language, etc.).</li>
+          <li>App lock credential (stored as a salted/hashed value, not plain text).</li>
+          <li>Local subscription state (e.g., product/plan identifiers, <span class="mono">purchase token</span>, <span class="mono">entitlement token</span>, subscription status, and verification timestamps).</li>
+        </ul>
+
+        <h4>Data sent only for subscription verification / restore (when online)</h4>
+        <p>When verifying or restoring Pro, the app sends limited purchase/security data to our backend, such as:</p>
+        <ul>
+          <li>App/package identifiers and product identifier(s).</li>
+          <li><span class="mono">purchase token</span>.</li>
+          <li>Play Integrity integrity token.</li>
+          <li>An anti-replay nonce (to prevent request reuse/tampering and bind the request to the app/product).</li>
+          <li>Technical info like platform, app version, and build flavor.</li>
+        </ul>
+
+        <div class="callout">
+          <b>Note:</b>
+          <div class="hint">Your recordings are not sent to our servers during this process.</div>
+        </div>
+
+        <h4>Server-side technical data</h4>
+        <p>Our backend may process technical logs for security, abuse prevention, operational reliability, and troubleshooting, which may include:</p>
+        <ul>
+          <li>IP address and basic request metadata (e.g., time, operation type, response status).</li>
+          <li>A technical/summary result of integrity verification for verification requests.</li>
+          <li>Temporary anti-replay nonce data used to prevent replay attacks.</li>
+        </ul>
+
+        <h3 id="en-s2">2) Permissions</h3>
+        <p>The app requests only permissions needed for core functionality:</p>
+        <ul>
+          <li>Camera: record video.</li>
+          <li>Microphone: record audio.</li>
+          <li>Foreground service (camera/microphone): keep recording service active in the background.</li>
+          <li>Notifications: show recording status and controls.</li>
+          <li>Vibration: haptic feedback.</li>
+          <li>Internet: verify Pro subscriptions via Google Play and Play Integrity when needed.</li>
+        </ul>
+        <p class="muted">You can manage permissions in device settings. Denying permissions may limit features.</p>
+
+        <h3 id="en-s3">3) How We Use Data</h3>
+        <p>We use data only to:</p>
+        <ul>
+          <li>Record and save clips on your device.</li>
+          <li>Manage visible and hidden recordings.</li>
+          <li>Provide app lock and biometric unlock (on-device).</li>
+          <li>Remember your settings.</li>
+          <li>Verify Pro entitlement via Google Play.</li>
+          <li>Protect service integrity (e.g., rate limiting, anti-replay, integrity checks).</li>
+        </ul>
+
+        <h3 id="en-s4">4) Sharing and Disclosure</h3>
+        <ul>
+          <li>We do not sell, rent, or share your data for advertising.</li>
+          <li>
+            For subscription verification, limited purchase/security data is shared only with:
+            <ul>
+              <li>Google Play Developer API (subscription status verification).</li>
+              <li>Google Play Integrity API (request/app/device integrity checks).</li>
+            </ul>
+          </li>
+          <li>We do not receive or store your payment card details; payments are handled by Google Play.</li>
+          <li>Technical logs may be processed by our hosting/infrastructure provider as part of operating and securing the service.</li>
+        </ul>
+
+        <h3 id="en-s5">5) Storage and Security</h3>
+        <ul>
+          <li>Hidden recordings are encrypted in app-private storage using Android Keystore-backed encryption.</li>
+          <li>Visible recordings are saved in your device gallery under <span class="mono">ClipShotRecord</span> (typically Movies or Music).</li>
+          <li>Temporary files may be created during recording/hiding/playback/export and are cleaned when no longer needed.</li>
+          <li>In rare cases, encryption may complete shortly after recording while the data remains within app-private storage.</li>
+          <li>Biometric authentication is handled on-device by Android; we do not access or store biometric templates.</li>
+        </ul>
+
+        <h3 id="en-s6">6) Backups</h3>
+        <p>
+          Depending on your device and cloud backup settings, Android (or your backup provider) may back up certain app data,
+          potentially including app-private data.
+        </p>
+        <p class="muted">
+          We do not control these backups or your backup provider’s retention policies. You can manage backups in your device settings.
+        </p>
+
+        <h3 id="en-s7">7) Data Retention and Deletion</h3>
+        <ul>
+          <li>You can delete recordings from inside the app or from your gallery.</li>
+          <li>Uninstalling the app removes app-private data.</li>
+          <li>Gallery-exported files remain until you delete them manually.</li>
+          <li>We do not maintain a user-account database for subscription verification.</li>
+          <li>
+            Server technical logs: We retain them for a limited period for operational and security purposes.
+            In the ordinary course of operations, this is typically up to 30 days. In exceptional cases, we may retain logs longer
+            if needed to investigate abuse/security incidents or to comply with legal obligations, and we delete or minimize them
+            when no longer required.
+          </li>
+          <li>Anti-replay nonce entries are temporary and auto-expire after the protection window.</li>
+        </ul>
+
+        <h3 id="en-s8">8) Children’s Privacy</h3>
+        <ul>
+          <li>The app is not directed to children under 13.</li>
+          <li>We do not knowingly collect direct personal information from children.</li>
+        </ul>
+
+        <h3 id="en-s9">9) Changes to This Policy</h3>
+        <p>We may update this policy from time to time. We will update the effective date and publish the revised policy in the app or at the policy URL.</p>
+
+        <h3 id="en-s10">10) Contact</h3>
+        <p>Privacy questions: <a href="mailto:alwassof25@gmail.com">alwassof25@gmail.com</a></p>
+      </section>
+
+      <!-- Footer -->
+      <div class="card">
+        <div class="footer">
+          <div>© <span id="year"></span> ClipShot Record</div>
+          <div class="muted">Hosted on GitHub Pages</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    const arBtn = document.getElementById("btn-ar");
+    const enBtn = document.getElementById("btn-en");
+    const arSection = document.getElementById("section-ar");
+    const enSection = document.getElementById("section-en");
+    const tocLinks = Array.from(document.querySelectorAll("#toc a"));
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    function updateTocHrefs(lang) {
+      tocLinks.forEach(a => {
+        const href = (lang === "ar") ? a.getAttribute("data-ar") : a.getAttribute("data-en");
+        if (href) a.setAttribute("href", href);
+      });
+    }
+
+    function setLang(lang, updateUrl = true) {
+      const isAr = (lang === "ar");
+      document.documentElement.lang = isAr ? "ar" : "en";
+      document.documentElement.dir  = isAr ? "rtl" : "ltr";
+
+      arSection.classList.toggle("active", isAr);
+      enSection.classList.toggle("active", !isAr);
+
+      arBtn.classList.toggle("active", isAr);
+      enBtn.classList.toggle("active", !isAr);
+
+      updateTocHrefs(isAr ? "ar" : "en");
+
+      // Update pills language (small UX detail)
+      document.getElementById("effective-pill").textContent = isAr ? "تاريخ السريان: 19 فبراير 2026" : "Effective Date: Feb 19, 2026";
+      document.getElementById("updated-pill").textContent  = isAr ? "آخر تحديث: 19 فبراير 2026" : "Last Updated: Feb 19, 2026";
+      document.getElementById("hint-pill").innerHTML       = isAr
+        ? "تلميح: أضف <b>?lang=ar</b> أو <b>?lang=en</b>"
+        : "Tip: add <b>?lang=ar</b> or <b>?lang=en</b>";
+
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+        url.searchParams.set("lang", isAr ? "ar" : "en");
+        window.history.replaceState({}, "", url.toString());
+      }
+    }
+
+    // Determine initial language
+    const url = new URL(window.location.href);
+    let lang = (url.searchParams.get("lang") || "").toLowerCase();
+    if (lang !== "ar" && lang !== "en") {
+      const nav = (navigator.language || "en").toLowerCase();
+      lang = nav.startsWith("ar") ? "ar" : "en";
+    }
+
+    setLang(lang, false);
+
+    arBtn.addEventListener("click", () => setLang("ar"));
+    enBtn.addEventListener("click", () => setLang("en"));
+  </script>
+</body>
+</html>
