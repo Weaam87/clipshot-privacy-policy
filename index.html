@@ -1,163 +1,295 @@
 سياسة الخصوصية لتطبيق ClipShot Record
-تاريخ السريان: 6 فبراير 2026
+تاريخ السريان: 19 فبراير 2026
+آخر تحديث: 19 فبراير 2026
 
-توضح سياسة الخصوصية هذه كيفية تعامل تطبيق ClipShot Record (“ClipShot” أو “نحن”) مع المعلومات عند استخدامك لتطبيق ClipShot Record (“التطبيق”).
+توضح سياسة الخصوصية هذه كيفية تعامل تطبيق ClipShot Record ("ClipShot" أو "نحن") مع البيانات عند استخدامك للتطبيق. التطبيق مصمم ليعمل أساسًا دون اتصال بالإنترنت، وتبقى تسجيلاتك على جهازك ما لم تقم أنت بتصديرها صراحةً.
 
-تم تصميم التطبيق ليعمل في الأساس دون اتصال بالإنترنت، ويحتفظ بالتسجيلات ومعظم الإعدادات على جهازك.
+1) المعلومات التي نعالجها
+ما لا نجمعه
 
-1) المعلومات التي نجمعها
-نحن لا نجمع معلومات شخصية ولا بيانات تحليلات ولا معرّفات إعلانية ولا تقارير أعطال. لا يتضمن التطبيق أي مكتبات تحليلات أو إعلانات خارجية، ولا يرسل تسجيلاتك إلى خوادمنا.
+لا نطلب إنشاء حساب.
 
-بيانات تُخزَّن محليًا على الجهاز فقط:
+لا نطلب اسمك أو بريدك الإلكتروني أو رقم هاتفك.
 
-التسجيلات التي تنشئها (فيديو وصوت)
-تفضيلات التطبيق (اختيار الكاميرا، الحد الأقصى للمدة، وضع التخزين، اللغة، وما شابه)
-بيانات قفل التطبيق (مخزنة بشكل مُشفّر/مُجزّأ وليس كنص صريح)
-حالة محلية لميزة Pro (كاش محلي)
-بالنسبة للميزات المدفوعة (الاشتراكات):
-عند التحقق من الاشتراك أو استعادته، يرسل التطبيق بيانات شراء محدودة إلى خادمنا:
+لا يتضمن التطبيق أي SDK إعلانات أو تحليلات أو تقارير أعطال من طرف ثالث.
 
-package name
-product ID
+لا نرفع تسجيلاتك (فيديو/صوت) إلى خوادمنا.
+
+بيانات تُخزَّن محليًا على جهازك (داخل التطبيق)
+
+التسجيلات (مرئية/مخفية).
+
+بيانات وصف للتسجيلات المخفية (مثل الوقت، المدة، الحجم، النوع، وحالة التصدير).
+
+إعدادات التطبيق (الكاميرا، وضع التسجيل، الجودة، المدة القصوى، وضع التخزين، اللغة، إلخ).
+
+بيانات قفل التطبيق (مخزنة كقيمة مُجزّأة ومملحة، وليست كنص صريح).
+
+حالة الاشتراك المخزنة محليًا (مثل مُعرّفات المنتج/الخطة، purchase token، entitlement token، حالة الاشتراك، وأوقات آخر تحقق).
+
+بيانات تُرسل فقط عند التحقق من الاشتراك أو استعادته (عند الاتصال بالإنترنت)
+
+عند التحقق من اشتراك Pro أو استعادته، يرسل التطبيق إلى خادمنا بيانات شراء/أمان محدودة مثل:
+
+مُعرّفات التطبيق/الحزمة (package name) ومُعرّف المنتج (product ID)
+
 purchase token
-app version / build flavor
-يُستخدم هذا فقط للتحقق من حالة الاشتراك عبر Google Play.
 
-سجلات الخادم:
-قد تحتوي سجلات خادمنا على بيانات تقنية مثل عنوان IP وبيانات الطلب لأغراض الأمان ومنع إساءة الاستخدام.
+integrity token (Play Integrity)
 
-2) الأذونات والوصول إلى الجهاز
-يطلب التطبيق الأذونات التالية فقط لتقديم الوظائف الأساسية:
+nonce لمكافحة إعادة الإرسال (anti-replay) وربط الطلب بالتطبيق/المنتج
 
-الكاميرا: لتسجيل الفيديو
-الميكروفون: لتسجيل الصوت مع الفيديو
-خدمة أمامية (كاميرا/ميكروفون): للتسجيل أثناء عمل التطبيق في الخلفية
-الإشعارات: لعرض حالة التسجيل وأزرار التحكم
-الاهتزاز: للتغذية الراجعة اللمسية
-الإنترنت: للتحقق من الاشتراك عبر Google Play
-يمكنك إدارة الأذونات من إعدادات الجهاز. في حال رفضها قد تتوقف بعض الميزات.
+معلومات تقنية مثل المنصة وإصدار التطبيق/نوع البناء (build flavor)
 
-3) كيفية استخدام المعلومات
+لا نرسل تسجيلاتك إلى خوادمنا أثناء هذا التحقق.
+
+بيانات تقنية على الخادم
+
+قد تحتوي سجلات خادمنا على بيانات تقنية لأغراض الأمان ومنع إساءة الاستخدام وتشخيص المشاكل التشغيلية، مثل:
+
+عنوان IP وبيانات طلب أساسية (مثل وقت الطلب ونوع العملية واستجابة الخادم)
+
+نواتج التحقق الخاصة بطلبات التحقق (مثل نتيجة فحص النزاهة بشكل تقني/ملخص)
+
+بيانات nonce المؤقتة لمكافحة إعادة الإرسال (تُستخدم لمنع التلاعب وإعادة استخدام نفس الطلب)
+
+2) الأذونات
+
+يطلب التطبيق الأذونات التالية لتشغيل الميزات الأساسية:
+
+الكاميرا: لتسجيل الفيديو.
+
+الميكروفون: لتسجيل الصوت.
+
+خدمة أمامية (كاميرا/ميكروفون): لاستمرار التسجيل أثناء عمل التطبيق بالخلفية.
+
+الإشعارات: لعرض حالة التسجيل وأزرار التحكم.
+
+الاهتزاز: للتغذية الراجعة اللمسية.
+
+الإنترنت: للتحقق من اشتراك Pro عبر Google Play و Play Integrity عند الحاجة.
+
+يمكنك إدارة الأذونات من إعدادات جهازك. رفض الأذونات قد يحد من بعض الميزات.
+
+3) كيف نستخدم البيانات
+
 نستخدم البيانات فقط من أجل:
 
-تسجيل وحفظ المقاطع على جهازك
-إدارة التسجيلات المخفية والمرئية
-توفير قفل التطبيق وفتح بصمة (تتم على جهازك)
-تذكّر الإعدادات
-التحقق من حالة الاشتراك عبر Google Play
-حماية الخدمة ومنع إساءة الاستخدام
-4) المشاركة والإفصاح
-نحن لا نبيع ولا نؤجر ولا نشارك بياناتك.
+تسجيل المقاطع وحفظها على جهازك.
 
-لأغراض التحقق من الاشتراك، يقوم خادمنا بإرسال بيانات الشراء إلى Google Play Developer API فقط للتحقق من حالة الاشتراك. نحن لا نستلم بيانات الدفع أو معلومات البطاقة.
+إدارة التسجيلات المرئية والمخفية.
+
+تفعيل قفل التطبيق وفتح القفل بالبصمة (تتم على جهازك).
+
+تذكر إعداداتك.
+
+التحقق من حالة الاشتراك عبر Google Play.
+
+حماية الخدمة من إساءة الاستخدام (مثل rate limiting ومكافحة إعادة الإرسال والتحقق من النزاهة).
+
+4) المشاركة والإفصاح
+
+لا نبيع بياناتك ولا نؤجرها ولا نشاركها لأغراض إعلانية.
+
+عند التحقق من الاشتراك، تتم مشاركة بيانات شراء/أمان محدودة مع خدمات Google التالية فقط:
+
+Google Play Developer API: للتحقق من حالة الاشتراك.
+
+Google Play Integrity API: للتحقق من سلامة الطلب/التطبيق/الجهاز.
+
+لا نستلم ولا نخزن بيانات بطاقتك البنكية؛ الدفع تتم معالجته عبر Google Play.
+
+قد تتم معالجة السجلات التقنية من قِبل مزود الاستضافة/البنية التحتية (مثل مزود الخدمة السحابية) كجزء من تشغيل الخدمة وتأمينها.
 
 5) التخزين والأمان
-يخزن التطبيق البيانات محليًا على جهازك:
 
-التسجيلات المخفية مشفّرة وتخزَّن داخل مساحة التطبيق الخاصة
-التسجيلات المرئية تُحفظ في معرض الجهاز داخل مجلد “ClipShotRecord”
-قد تُنشأ ملفات مؤقتة أثناء التسجيل أو التشغيل أو التصدير ويتم حذفها بعد انتهاء الحاجة
-إذا فعّلت فتح القفل بالبصمة، تتم المصادقة على جهازك فقط. نحن لا نصل إلى بياناتك البيومترية ولا نخزّنها.
+التسجيلات المخفية تُشفَّر داخل مساحة التطبيق الخاصة باستخدام تشفير مدعوم بـ Android Keystore.
+
+التسجيلات المرئية تُحفَظ في معرض الجهاز داخل مجلد ClipShotRecord (عادة تحت Movies أو Music).
+
+قد تُنشأ ملفات مؤقتة أثناء التسجيل/الإخفاء/التشغيل/التصدير، ويتم تنظيفها تلقائيًا عند عدم الحاجة.
+
+في حالات نادرة، قد تكتمل عملية التشفير بعد التسجيل بوقت قصير بينما تبقى البيانات ضمن مساحة التطبيق الخاصة.
+
+المصادقة البيومترية تتم على جهازك بواسطة Android؛ لا نصل إلى بياناتك البيومترية ولا نخزنها.
 
 6) النسخ الاحتياطي
-حسب إعدادات جهازك، قد يقوم Android بنسخ بيانات التطبيق (بما فيها التفضيلات والتسجيلات المخفية) إلى مزود النسخ الاحتياطي. نحن لا نتحكم بهذه النسخ. يمكنك تعطيل النسخ الاحتياطي من إعدادات الجهاز.
+
+اعتمادًا على إعدادات جهازك/حسابك السحابي، قد يقوم Android أو مزود النسخ الاحتياطي بنسخ بعض بيانات التطبيق الخاصة (بما في ذلك التفضيلات وربما البيانات داخل مساحة التطبيق الخاصة).
+نحن لا نتحكم بهذه النسخ أو بسياسات الاحتفاظ لدى مزود النسخ الاحتياطي. يمكنك إدارة النسخ الاحتياطي من إعدادات جهازك.
 
 7) الاحتفاظ بالبيانات والحذف
-أنت تتحكم ببياناتك:
 
-يمكنك حذف التسجيلات من داخل التطبيق أو من معرض الجهاز
-حذف التطبيق يزيل البيانات داخل التطبيق
-التسجيلات الموجودة في المعرض تبقى حتى تحذفها يدويًا
-سجلات الخادم (التي قد تتضمن عنوان IP وبيانات الطلب) يتم الاحتفاظ بها حتى 30 يومًا ثم تُحذف تلقائيًا.
+يمكنك حذف تسجيلاتك من داخل التطبيق أو من المعرض.
+
+حذف التطبيق يزيل البيانات داخل مساحة التطبيق الخاصة.
+
+التسجيلات التي قمت بتصديرها إلى المعرض تبقى حتى تحذفها يدويًا.
+
+لا نحتفظ بقاعدة بيانات حسابات مستخدمين لأغراض الاشتراك.
+
+السجلات التقنية على الخادم: نحتفظ بها لمدة محدودة لأغراض التشغيل والأمان. عادةً لا تتجاوز 30 يومًا، وقد نحتفظ بها لفترة أطول بشكل استثنائي إذا لزم ذلك للتحقيق في إساءة استخدام/حادثة أمنية أو للامتثال لالتزام قانوني، ثم تُحذف أو تُقلَّص عندما لا تعود هناك حاجة لها.
+
+بيانات nonce المضادة لإعادة الإرسال تُخزن مؤقتًا فقط وتُحذف تلقائيًا بعد انتهاء نافذة الحماية.
 
 8) خصوصية الأطفال
-التطبيق غير موجه للأطفال دون 13 عامًا، ولا نجمع عن قصد بيانات شخصية من الأطفال.
 
-9) تغييرات على السياسة
-قد نقوم بتحديث هذه السياسة من وقت لآخر. سيتم تحديث تاريخ السريان ونشر النسخة المعدلة داخل التطبيق أو عبر رابط السياسة.
+التطبيق غير موجّه للأطفال دون 13 عامًا.
+
+لا نجمع عن قصد معلومات شخصية مباشرة من الأطفال.
+
+9) تغييرات هذه السياسة
+
+قد نقوم بتحديث هذه السياسة من وقت لآخر. سنحدّث تاريخ السريان وننشر النسخة المحدثة داخل التطبيق أو عبر رابط السياسة.
 
 10) تواصل معنا
-إذا كان لديك أي أسئلة، تواصل معنا عبر:
-alwassof25@gmail.com
+
+لأي استفسار حول الخصوصية: alwassof25@gmail.com
 
 Privacy Policy for ClipShot Record
-Effective date: February 6, 2026
 
-This Privacy Policy explains how ClipShot Record (“ClipShot,” “we,” “us,” or “our”) handles information when you use the ClipShot Record mobile application (the “App”).
+Effective Date: February 19, 2026
+Last Updated: February 19, 2026
 
-The App is designed to work primarily offline and keeps your recordings and most settings on your device.
+This Privacy Policy explains how ClipShot Record ("ClipShot," "we," "us," or "our") handles data when you use the app. The app is designed to work primarily offline, and your recordings remain on your device unless you explicitly export them.
 
-1) Information We Collect
-We do not collect personal information, analytics data, advertising identifiers, or crash reports. The App does not include third‑party analytics or advertising SDKs, and it does not transmit your recordings to our servers.
+1) Information We Process
+What we do NOT collect
 
-On‑device data (stored locally only):
+No account registration is required.
 
-Recordings you create (video and audio)
-App preferences (camera selection, max duration, storage mode, language, and similar settings)
-App lock credentials (stored as salted, hashed values, not in plain text)
-A local Pro entitlement flag (cached)
-For paid features (subscription verification):
-When you verify or restore your subscription, the App sends limited purchase data to our backend server:
+We do not ask for your name, email, or phone number.
 
-package name
-product ID
+The app does not include third-party advertising, analytics, or crash-reporting SDKs.
+
+We do not upload your recordings (video/audio) to our servers.
+
+Data stored locally on your device
+
+Recordings (visible/hidden).
+
+Hidden recording metadata (e.g., timestamp, duration, size, type, export state).
+
+App preferences (camera, mode, quality, max duration, storage mode, language, etc.).
+
+App lock credential (stored as a salted/hashed value, not plain text).
+
+Local subscription state (e.g., product/plan identifiers, purchase token, entitlement token, subscription status, and verification timestamps).
+
+Data sent only for subscription verification / restore (when online)
+
+When verifying or restoring Pro, the app sends limited purchase/security data to our backend, such as:
+
+App/package identifiers and product identifier(s)
+
 purchase token
-app version / build flavor
-Our server uses this data only to verify subscription status with Google Play.
 
-Server logs:
-Our backend logs may include technical data such as IP address and request metadata for security, abuse prevention, and troubleshooting.
+Play Integrity integrity token
 
-2) Permissions and Device Access
-The App requests the following permissions only to provide core functionality:
+an anti-replay nonce (to prevent request reuse/tampering and bind the request to the app/product)
 
-Camera: capture video
-Microphone: capture audio with video
-Foreground service (camera/microphone): record while the App runs in the background
-Notifications: show recording status and controls
-Vibration: haptic feedback
-Internet: verify Pro purchases and subscriptions through Google Play
-You can manage permissions at any time in device settings. Denying permissions may limit features.
+technical info like platform, app version, and build flavor
 
-3) How We Use Information
+Your recordings are not sent to our servers during this process.
+
+Server-side technical data
+
+Our backend may process technical logs for security, abuse prevention, operational reliability, and troubleshooting, which may include:
+
+IP address and basic request metadata (e.g., time, operation type, response status)
+
+a technical/summary result of integrity verification for verification requests
+
+temporary anti-replay nonce data used to prevent replay attacks
+
+2) Permissions
+
+The app requests only permissions needed for core functionality:
+
+Camera: record video.
+
+Microphone: record audio.
+
+Foreground service (camera/microphone): keep recording service active in the background.
+
+Notifications: show recording status and controls.
+
+Vibration: haptic feedback.
+
+Internet: verify Pro subscriptions via Google Play and Play Integrity when needed.
+
+You can manage permissions in device settings. Denying permissions may limit features.
+
+3) How We Use Data
+
 We use data only to:
 
-Record and save clips on your device
-Manage hidden/visible recordings
-Provide app lock and biometric unlock (handled by your device)
-Remember your settings
-Verify Pro subscription entitlement via Google Play
-Protect the service (security and abuse prevention)
-4) Sharing and Disclosure
-We do not sell, rent, or share your data.
+Record and save clips on your device.
 
-For subscription verification, our backend sends purchase data to Google Play Developer API solely to confirm subscription status. We do not receive your payment details.
+Manage visible and hidden recordings.
+
+Provide app lock and biometric unlock (on-device).
+
+Remember your settings.
+
+Verify Pro entitlement via Google Play.
+
+Protect service integrity (e.g., rate limiting, anti-replay, integrity checks).
+
+4) Sharing and Disclosure
+
+We do not sell, rent, or share your data for advertising.
+
+For subscription verification, limited purchase/security data is shared only with:
+
+Google Play Developer API (subscription status verification)
+
+Google Play Integrity API (request/app/device integrity checks)
+
+We do not receive or store your payment card details; payments are handled by Google Play.
+
+Technical logs may be processed by our hosting/infrastructure provider as part of operating and securing the service.
 
 5) Storage and Security
-ClipShot Record stores data locally on your device:
 
-Hidden recordings are encrypted and stored in app‑private storage
-Visible recordings are saved to your gallery in a “ClipShotRecord” folder
-Temporary files may be created during recording, playback, or export and are removed when no longer needed
-If you enable biometric unlock, authentication is handled by your device. We do not access or store biometric data.
+Hidden recordings are encrypted in app-private storage using Android Keystore-backed encryption.
+
+Visible recordings are saved in your device gallery under ClipShotRecord (typically Movies or Music).
+
+Temporary files may be created during recording/hiding/playback/export and are cleaned when no longer needed.
+
+In rare cases, encryption may complete shortly after recording while the data remains within app-private storage.
+
+Biometric authentication is handled on-device by Android; we do not access or store biometric templates.
 
 6) Backups
-Depending on your device settings, Android may back up app data (including preferences and hidden recordings) to your cloud backup provider. We do not control these backups.
+
+Depending on your device and cloud backup settings, Android (or your backup provider) may back up certain app data, potentially including app-private data. We do not control these backups or your backup provider’s retention policies. You can manage backups in your device settings.
 
 7) Data Retention and Deletion
-You control your data:
 
-Delete recordings from the App or from your device gallery
-Uninstalling the App removes app‑private data
-Gallery recordings remain until you delete them manually
-Server logs (which may include IP address and request metadata) are retained up to 30 days and then automatically deleted.
+You can delete recordings from inside the app or from your gallery.
+
+Uninstalling the app removes app-private data.
+
+Gallery-exported files remain until you delete them manually.
+
+We do not maintain a user-account database for subscription verification.
+
+Server technical logs: We retain them for a limited period for operational and security purposes. In the ordinary course of operations, this is typically up to 30 days. In exceptional cases, we may retain logs longer if needed to investigate abuse/security incidents or to comply with legal obligations, and we delete or minimize them when no longer required.
+
+Anti-replay nonce entries are temporary and auto-expire after the protection window.
 
 8) Children’s Privacy
-The App is not directed to children under 13. We do not knowingly collect personal information from children.
+
+The app is not directed to children under 13.
+
+We do not knowingly collect direct personal information from children.
 
 9) Changes to This Policy
-We may update this policy from time to time. We will update the effective date and publish the revised policy in the App or at the policy URL.
 
-10) Contact Us
-If you have questions, contact us at:
-alwassof25@gmail.com
+We may update this policy from time to time. We will update the effective date and publish the revised policy in the app or at the policy URL.
+
+10) Contact
+
+Privacy questions: alwassof25@gmail.com
